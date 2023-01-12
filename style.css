@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(109.66deg, #5A1332 26.38%, #1488B1 100%);
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  align-items: stretch;
+  justify-items: stretch;
+  padding: 4rem 1.5rem 2rem 1.5rem;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, 350px);
+  grid-auto-rows: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.card,
+.add-card {
+  font-size: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 0.1vw solid black;
+  border-radius: 0.3vw;
+}
+
+.card {
+  font-family: sans-serif;
+  padding: 1.25rem;
+  resize: none;
+}
+
+.card::placeholder {
+  color: rgba(255, 255, 255, 0.80);
+}
+
+.add-card {
+  font-size: 9.75rem;
+  opacity: 70%;
+  cursor: pointer;
+  transition: opacity 300ms, font-size 100ms;
+}
+
+.add-card:hover {
+  font-size: 11.75rem;
+  opacity: 100%;
+}
+
+.add-card.purple,
+.card.purple {
+  background-color: #5D358E;
+  color: white;
+}
+
+.add-card.green,
+.card.green {
+  background-color: #499647;
+  color: white;
+}
+
+.add-card.yellow,
+.card.yellow {
+  background-color: rgba(255, 255, 0, 0.75);
+  color: black;
+}
+
+.card.yellow::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.add-card.lime,
+.card.lime {
+  background-color: #6A9647;
+  color: white;
+}
+
+.add-card.orange,
+.card.orange {
+  background-color: rgba(255, 166, 0, 0.9);
+  color: black;
+}
+
+
+.card.orange::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.add-card.magenta,
+.card.magenta {
+  background-color: #973E7E;
+  color: white;
+}
+
+.add-card.oceanblue,
+.card.oceanblue {
+  background-color: #34527E;
+  color: white;
+}
+
+.add-card.red,
+.card.red {
+  background-color: #A04444;
+  color: white;
+}
+
+.add-card.cyan,
+.card.cyan {
+  background-color: #35848E;
+  color: white;
+}
