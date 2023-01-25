@@ -1,1 +1,1 @@
-# sticker-app
+# Sticker App
